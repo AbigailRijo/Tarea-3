@@ -1,0 +1,174 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body {
+	background-image: url(img/5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+h2 {
+	text-align: left;
+	color: black;
+	margin-bottom: 15px;
+	margin-left: 50px;
+}
+
+
+#formulario {
+	margin-top: 10px;
+	padding: 5px;
+	width: 300px;
+	height: 360px;
+	float: left;
+	margin-left: 225px;
+	border-radius: 6px;
+	background: rgba(255, 255, 255, 0.5);
+	border: 1px solid rgba(0,0,0,0.5);
+}
+
+#tabla {
+	margin-top: 10px;                     
+	padding: 30px;
+	width: 500px;
+	height: 150px;
+	float: right;
+	margin-right: 225px;
+	max-height: 300px;
+	border-radius: 6px;
+	background: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(0,0,0,0.5);
+}
+
+#div1{
+	overflow: scroll;
+	max-height: 400px;
+	clear: both;
+	margin-top: 10px;                     
+	padding: 30px;
+	width: 700px;
+	height: 180px;
+	float: left;
+	margin-left: 300px;
+	max-width: 1000px;
+	border-radius: 6px;
+	background: rgba(255, 255, 255, 0.5);
+	border: 1px solid rgba(0,0,0,0.5); 
+}
+
+input {
+	width: 80%;
+	height: 20px;
+	display: block;
+	padding: 10px;
+	margin: 5px 0;
+	font-size: 20px;
+	border-radius: 4px;
+	border: none;
+	border: 1px solid rgba(0,0,0,0.8);
+}
+
+
+
+#btn {
+	
+	width: 90%;
+	height: 40px;
+	line-height: 10px;
+	cursor: pointer;
+	background: #388888;
+	color: #fff;
+	border: none;
+	margin-left: 15px;
+}
+
+#btn:hover {
+	background: blue;
+	color: white;
+}
+
+#btnCancelar {
+	
+	width: 90%;
+	height: 40px;
+	line-height: 10px;
+	cursor: pointer;
+	background: #388888;
+	color: #fff;
+	border: none;
+	margin-left: 15px;
+}
+
+#btnCancelar:hover {
+	background: blue;
+	color: white;
+}
+
+#bton {
+	width: 60%;
+	height: 40px;
+	line-height: 10px;
+	cursor: pointer;
+	background: #388888;
+	color: #fff;
+	border: none;
+	margin-left: 40px;
+}
+
+#bton:hover {
+	background: blue;
+	color: white;
+}
+
+
+#botoncito {
+	width: 60%;
+	height: 40px;
+	line-height: 10px;
+	cursor: pointer;
+	background: #388888;
+	color: #fff;
+	border: none;
+	margin-left: 40px;
+}
+
+#botoncito:hover {
+	background: blue;
+	color: white;
+}
+
+
+#boton {
+	width: 60%;
+	height: 40px;
+	line-height: 10px;
+	cursor: pointer;
+	background: #388888;
+	color: #fff;
+	border: none;
+	margin-left: 40px;
+}
+
+#boton:hover {
+	background: blue;
+	color: white;
+}
+
+input[type="button"]:active {
+	transform: scale(0.90);
+}
+
+#div{
+	overflow: scroll;
+	max-height: 150px;
+}
+
+label{
+margin-left: 20px;
+
+}
